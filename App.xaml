@@ -1,3 +1,13 @@
 <Window xmlns="https://github.com/avaloniaui" Title="Project 0002">
-	Hello, world!
+
+	<StackPanel>
+
+		<TextBlock Text="Please enter your first name:"/>
+
+		<TextBox Name="firstname-in"/>
+
+		<Button Name="enter-button" Content="Enter"/>
+
+	</StackPanel>
+
 </Window>
