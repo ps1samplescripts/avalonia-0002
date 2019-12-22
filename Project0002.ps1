@@ -14,12 +14,7 @@ $enterButton  = Find-AvaloniaControl -Name "enter-button"  -Window $Window
 $firstnameIn  = Find-AvaloniaControl -Name "firstname-in"  -Window $Window
 
 # Add event handler
-$enterButton.Add_Click(
-	{
-		$firstname = $firstnameIn.Text
-		$Window.Content = "Hello, $firstname!"
-	}
-)
+$enterButton.Add_Click({$Window.Content = "Hello, $($firstnameIn.Text)!"})
 
 # Show the app
 Show-AvaloniaWindow -Window $Window

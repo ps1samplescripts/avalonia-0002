@@ -2,7 +2,7 @@
 
 	<StackPanel>
 
-		<TextBlock Text="First name:"/>
+		<TextBlock Text="Please enter your first name:"/>
 
 		<TextBox Name="firstname-in"/>
 
